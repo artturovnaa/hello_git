@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Мой виш-лист проектов на Python</title>
+  <style>
+    body {
+      font-family: "Segoe UI", sans-serif;
+      background: linear-gradient(135deg, #e0e7ff, #f5f3ff);
+      color: #333;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      margin: 0;
+    }
+    h1 {
+      color: #4f46e5;
+      margin-bottom: 1rem;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      max-width: 400px;
+      width: 90%;
+    }
+    li {
+      padding: 1rem;
+      border-bottom: 1px solid #ddd;
+      font-size: 1.1rem;
+    }
+    li:last-child {
+      border-bottom: none;
+    }
+    li::before {
+      content: "💡 ";
+    }
+  </style>
+</head>
+<body>
+  <h1>Мой виш-лист проектов на Python</h1>
+  <ul>
+    <li>Бот для Telegram — автоматические ответы, интеграция с API и управление задачами</li>
+    <li>Анализ новостных заголовков — сбор и обработка данных, определение тональности</li>
+    <li>Мини-игра в терминале — простая текстовая RPG или головоломка с сохранением прогресса</li>
+    <li>Веб-сайт на Flask — интерактивный проект с маршрутизацией и шаблонами</li>
+  </ul>
+</body>
+</html>
+
